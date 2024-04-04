@@ -1,7 +1,6 @@
 import numpy as np
 import csv
 import matplotlib.pyplot as plt
-# from mpl_toolkits.mplot3d import Axes3D
 import random
 import time
 
@@ -80,6 +79,7 @@ def task2():
     plt.legend()
     plt.show()
 
+
 #task3
 def task3():
     x = np.linspace(-5*np.pi, 5*np.pi, 20)
@@ -97,5 +97,5 @@ def task3():
 
 if __name__ == '__main__':
     # task1()
-    # task2()
+    task2()
     task3()
